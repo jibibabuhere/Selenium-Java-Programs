@@ -1,0 +1,27 @@
+package abstraction;
+
+
+abstract class google{  // abstract class
+	abstract void image();
+	abstract void videos();
+	
+}
+public class ABSTRACTION_DENO extends google{
+	public void image() {
+		System.out.println("Image is displayed");
+	}
+	
+	public void videos() {
+		System.out.println("Video is displayed");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ABSTRACTION_DENO ab = new ABSTRACTION_DENO();
+		ab.image();
+		ab.videos();
+		
+
+	}
+
+}
